@@ -38,7 +38,7 @@ public:
                     string id;
                     stringstream ss(v[2]);
                     while (ss >> id) {
-                        res[stoi(id.substr(2, id.size()-2))]++;
+                        res[stoi(id.substr(2, id.size()))]++;
                     }
                 }
             }
