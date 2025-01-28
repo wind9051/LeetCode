@@ -1,3 +1,6 @@
+/*
+    Presum    
+*/
 class Solution {
 public:
     int countPartitions(std::vector<int>& nums) {
