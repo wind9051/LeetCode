@@ -1,3 +1,6 @@
+/*
+    String
+*/
 class Solution {
 public:
     static bool cmp(vector<string>& a,vector<string>& b){
