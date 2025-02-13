@@ -1,5 +1,5 @@
-const auto init = []{
-    ios::sync_with_stdio(false);
+static const auto io_sync_off = [] {
+    ios_base::sync_with_stdio(false);
     return true;
 }();
 
