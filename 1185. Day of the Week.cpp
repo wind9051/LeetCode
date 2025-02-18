@@ -13,10 +13,11 @@ public:
         for (int i = 1971; i < year; i++) {
             sum += is_leap(i) ? 366 : 365;
         }
+
+        if (is_leap(year)) days[1]++;
         for (int i = 0; i < month-1; i++) {
             sum += days[i];
         }
-        if (month > 2 && is_leap(year)) sum++;
 
         sum += day;
 
