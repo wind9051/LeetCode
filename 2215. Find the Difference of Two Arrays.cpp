@@ -1,16 +1,16 @@
 class Solution {
 public:
     vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
-        set<int> vis1, vis2;
-        for (int & n : nums1) vis1.insert(n);
-        for (int & n : nums2) vis2.insert(n);
-        
+        bitset<2005> vis1 = 0, vis2 = 0;
+        for (auto& i : nums1) vis1[i+1000] = 1;
+        for (auto& i : nums2) vis2[i+1000] = 1;
+
         vector<int> Union1, Union2;
-        for (auto n : vis1) {
-            if (!vis2.count(n)) Union1.push_back(n);
-        }
-        for (auto n : vis2) {
-            if (!vis1.count(n)) Union2.push_back(n);
+        for (int i = 0; i <= 2000; i++) {
+            if (vis1[i] != vis2[i]) {
+                if (vis1[i]) Union1.push_back(i-1000);
+                else Union2.push_back(i-1000);
+            }
         }
         return {Union1, Union2};
     }
