@@ -3,6 +3,8 @@
     S = k + 2k + ... + mk
       = k × (1 + 2 + ... + m)
       = k x m(m+1)/2
+      
+    divisible 3, 5, 7
 */
 
 class Solution {
