@@ -1,0 +1,18 @@
+/*
+    https://leetcode.com/problems/1-bit-and-2-bit-characters/solutions/6415431/clearly-explained-100-beats/
+    1[0]0 true
+    [11]0 true, [11][10] false
+    (cnt 1) % 2 == 0
+*/
+
+class Solution {
+public:
+    bool isOneBitCharacter(vector<int>& bits) {
+        int L = 0, len = bits.size()-1;
+        while (L < len) {
+            if (bits[L] == 0) L++;
+            else L += 2;
+        }
+        return L == len;
+    }
+};
