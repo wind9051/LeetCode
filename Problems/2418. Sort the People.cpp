@@ -1,3 +1,4 @@
+//sort(idx.begin(), idx.end(), [&](int i, int j) { return heights[j] < heights[i]; });
 class Solution {
 public:
     static bool cmp (int & a, int & b) {
