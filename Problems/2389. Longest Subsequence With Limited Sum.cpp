@@ -1,3 +1,7 @@
+/*
+    Prefix, BS
+*/
+    
 class Solution {
 public:
     vector<int> answerQueries(vector<int>& nums, vector<int>& queries) 
@@ -20,6 +24,7 @@ public:
                 else break;
             }
         }
+        // res.push_back(upper_bound(A.begin(), A.end(), q) - A.begin());
         return ans;
     }
 };
