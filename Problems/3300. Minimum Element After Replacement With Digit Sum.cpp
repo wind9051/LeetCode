@@ -1,3 +1,4 @@
+//nums with the sum of its digits.
 class Solution {
 public:
     int minElement(vector<int>& nums) {
