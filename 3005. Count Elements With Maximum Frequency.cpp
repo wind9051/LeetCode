@@ -9,9 +9,9 @@ public:
             maxCnt = max(maxCnt, Hash[n]);
         }
         int ret = 0;
-        for (auto v : Hash)
+        for (auto [k, v] : Hash)
         {
-            if (v.second == maxCnt) ret += maxCnt;
+            if (v == maxCnt) ret += maxCnt;
         }
         return ret;
     }
