@@ -13,3 +13,6 @@ public:
         return now;
     }
 };
+/*
+    Boyer-Moore, 眾數, 數學
+*/
