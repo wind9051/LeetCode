@@ -14,5 +14,6 @@ public:
     }
 };
 /*
-    Hash, O(n)
+    Hash, 哈希
+    O(n)
 */
