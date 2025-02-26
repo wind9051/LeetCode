@@ -1,6 +1,4 @@
-/*
-  Math, Geometry
-*/
+
 class Solution {
 public:
     int areaOfMaxDiagonal(vector<vector<int>>& dimensions) {
@@ -19,3 +17,6 @@ public:
         return maxArea;
     }
 };
+/*
+  Math, Geometry, 數學, 幾何
+*/
