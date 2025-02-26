@@ -1,6 +1,4 @@
-/*
-    O(n)
-*/
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -15,3 +13,6 @@ public:
         return {};
     }
 };
+/*
+    Hash, O(n)
+*/
