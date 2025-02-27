@@ -10,3 +10,6 @@ public:
         return ret;
     }
 };
+/*
+    Hash, 哈希
+*/
