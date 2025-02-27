@@ -12,3 +12,7 @@ public:
         return 0;
     }
 };
+/*
+    https://leetcode.cn/problems/minimum-number-of-operations-to-make-elements-in-array-distinct/solutions/3027035/on-yi-ci-bian-li-jian-ji-xie-fa-pythonja-jgox/
+    Math, 數學
+*/
