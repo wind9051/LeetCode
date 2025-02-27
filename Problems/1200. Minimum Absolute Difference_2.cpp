@@ -30,3 +30,6 @@ public:
         return answer;
     }
 };
+/*
+    Bit, 位移
+*/
