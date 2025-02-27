@@ -1,6 +1,4 @@
-/*
-    math, 斜率
-*/
+
 class Solution {
 public:
     bool checkStraightLine(vector<vector<int>>& coordinates) {
@@ -12,3 +10,7 @@ public:
         return true;
     }
 };
+/*
+    math, 數學, 斜率
+    m = dy/dx
+*/
