@@ -1,0 +1,15 @@
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int n = 0;
+        for (int x : nums) {
+            n ^= x;
+        }
+        return n;
+    }
+};
+/*
+    Bit, 位元
+    a ^ (b ^ b) = a
+    Find that single one.
+*/
