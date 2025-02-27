@@ -1,6 +1,5 @@
 class Solution {
 public:
-    string medel[4] = {" ", "Gold Medal", "Silver Medal", "Bronze Medal"};
     vector<string> findRelativeRanks(vector<int>& score) {
         priority_queue<pair<int, int>> Q;
         
@@ -17,4 +16,9 @@ public:
         
         return ret;
     }
+private:
+    vector<string> medel = {" ", "Gold Medal", "Silver Medal", "Bronze Medal"};
 };
+/*
+    PQ, 優先佇列
+*/
