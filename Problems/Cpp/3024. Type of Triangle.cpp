@@ -8,3 +8,6 @@ public:
         return "scalene";
     }
 };
+/*
+    Math, 數學, 幾何, 三角形
+*/
