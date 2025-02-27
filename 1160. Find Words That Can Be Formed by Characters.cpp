@@ -14,10 +14,12 @@ public:
                     flag = 0; break;
                 }
             }
-            
             if (flag) ret += word.size();
         }
         
         return ret;
     }
 };
+/*
+    string, Hash, 字串, 哈希
+*/
