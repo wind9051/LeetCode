@@ -1,13 +1,7 @@
-/*
-    Presum    
-*/
 class Solution {
 public:
     int countPartitions(std::vector<int>& nums) {
-        int totalSum = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            totalSum += nums[i]; 
-        }
+        int totalSum = accumulate(begin(nums), end(nums), 0);
 
         int leftSum = 0, rightSum = 0, count = 0;
         for (int i = 0; i < nums.size() - 1; i++) { 
@@ -21,3 +15,7 @@ public:
         return count; 
     }
 };
+/*
+    Math, 數學, 奇偶
+    a = oven, b = oven, a-b = oven
+*/
