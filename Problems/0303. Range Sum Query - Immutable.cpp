@@ -1,16 +1,17 @@
 class NumArray {
 public:
     NumArray(vector<int> &nums) {
-        accu.push_back(0);
-        for (int num : nums)
-            accu.push_back(accu.back() + num);
+        sumN.push_back(0);
+        for (int n : nums) {
+            sumN.push_back(sumN.back() + n);
+        }
     }
 
     int sumRange(int i, int j) {
-        return accu[j + 1] - accu[i];
+        return sumN[j+1] - sumN[i];
     }
 private:
-    vector<int> accu;
+    vector<int> sumN;
 };
 
 
@@ -18,3 +19,6 @@ private:
 // NumArray numArray(nums);
 // numArray.sumRange(0, 1);
 // numArray.sumRange(1, 2); 
+/*
+    Prefix, 前綴, 結構
+*/
