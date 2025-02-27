@@ -25,3 +25,6 @@ public:
         return ans;
     }
 };
+/*
+    Hash, 哈希
+*/
