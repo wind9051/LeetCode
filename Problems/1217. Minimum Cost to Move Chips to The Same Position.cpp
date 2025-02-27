@@ -9,3 +9,6 @@ public:
         return min(odd, even);
     }
 };
+/*
+    Math, 數學, 奇偶
+*/
