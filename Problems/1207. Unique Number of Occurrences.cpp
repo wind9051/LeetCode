@@ -12,3 +12,6 @@ public:
         return true;
     }
 };
+/*
+    Hash, 哈希
+*/
