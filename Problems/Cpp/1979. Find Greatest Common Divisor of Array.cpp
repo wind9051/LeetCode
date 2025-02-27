@@ -6,3 +6,6 @@ public:
         return __gcd(x, y);
     }
 };
+/*
+    Math, GCD, 數學
+*/
