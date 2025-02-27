@@ -1,0 +1,17 @@
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+        if (target <= nums[0]) return 0;
+
+        int L = 0, R = nums.size() - 1;
+        while (L <= R) {
+            int M = L + (R - L) / 2;
+            if (target <= nums[M]) R = M - 1;
+            else L = M + 1;
+        }
+        return L;
+    }
+};
+/*
+    BS, 二元搜尋
+*/
