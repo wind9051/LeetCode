@@ -1,9 +1,6 @@
-/*
-    Math
-*/
 class Solution {
 public:
-
+    /*
     int Gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
     }
@@ -11,7 +8,7 @@ public:
     int Lcm(int a, int b) {
         return (a / gcd(a, b)) * b;
     }
-
+    */
     int factorial(int n) {
         int sum = 1;
         for (int i = 1; i <= n; i++) sum *= i;
@@ -27,13 +24,13 @@ public:
             int currLCM = nums[i];
             int currPro = nums[i];
             for (int j = i + 1; j < n; j++) {
+                //lcm = 1*2*...*10 = 10n! = 3628800 gcm = [1, 10]
+                if (currPro > 1e7) break;
+
                 currPro *= nums[j]; //over flow
                 currGCD = gcd(currGCD, nums[j]);
                 currLCM = lcm(currLCM, nums[j]);
                 
-                //lcm = 1*2*...*10 = 10n! = 3628800 gcm = [1, 10]
-                if (currPro > 1e6) break;
-
                 if (currPro == currLCM * currGCD) {
                     maxL = max(maxL, j - i + 1);
                 }
@@ -42,3 +39,6 @@ public:
         return maxL;
     }
 };
+/*
+    Math, 數學, GCD, LCM
+*/
