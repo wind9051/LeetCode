@@ -17,3 +17,6 @@ public:
         return minn == 1e6 ? -1 : minn;
     }
 };
+/*
+    Two pointer, 雙指針
+*/
