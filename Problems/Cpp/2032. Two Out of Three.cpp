@@ -14,3 +14,6 @@ public:
         return Union;
     }
 };
+/*
+    Hash, 哈希
+*/
