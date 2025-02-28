@@ -5,7 +5,7 @@ public:
         if (mn < k) return -1; 
         
         int ans = 0;
-        vector<bool> Hash(105, 0);
+        bitset<105> Hash;
         for (auto &n: nums) {
             if (!Hash[n]) {
                 Hash[n] = 1;
@@ -18,3 +18,6 @@ public:
         return ans; 
     }
 };
+/*
+    Hash, 哈希
+*/
