@@ -11,3 +11,6 @@ public:
         return cnt;
     }
 };
+/*
+    Hash, 哈希, 排組
+*/
