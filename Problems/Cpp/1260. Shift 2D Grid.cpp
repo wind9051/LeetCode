@@ -1,6 +1,3 @@
-/*
-    matrix
-*/
 class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
@@ -13,3 +10,6 @@ public:
         return ret;
     }
 };
+/*
+    matrix, 矩陣
+*/
