@@ -12,3 +12,6 @@ public:
         return maxn;
     }
 };
+/*
+    Hash, 哈希
+*/
