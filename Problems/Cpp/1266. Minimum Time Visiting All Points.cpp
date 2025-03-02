@@ -1,6 +1,3 @@
-/*
-    math
-*/
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -14,3 +11,6 @@ public:
         return sum;
     }
 };
+/*
+    math, 座標
+*/
