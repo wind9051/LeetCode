@@ -25,4 +25,7 @@ public:
     }
 };
 
-//num−d<=y<=num+d
+/*
+    BS, 二元搜尋
+    num−d<=y<=num+d
+*/
