@@ -18,3 +18,7 @@ public:
         return cnt;
     }
 };
+
+/*
+    Math, Hash, 哈希, 數學
+*/
