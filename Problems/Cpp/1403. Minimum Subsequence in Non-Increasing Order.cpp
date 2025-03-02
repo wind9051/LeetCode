@@ -7,16 +7,15 @@ public:
     vector<int> minSubsequence(vector<int>& nums) {
         sort(nums.begin(), nums.end(), cmp);
         
-        int sum = 0;
-        for (int & n : nums) sum += n;
+        int totalSum = accumulate(begin(nums), end(nums), 0);
         
         int now = 0;
         vector<int> ret;
         for (int & n : nums) {
             ret.push_back(n);
             now += n;
-            sum -= n;
-            if (now > sum) return ret;
+            totalSum -= n;
+            if (now > totalSum) return ret;
         }
         return {};
     }
