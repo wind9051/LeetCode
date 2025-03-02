@@ -5,6 +5,7 @@
     1101 & 0100 = 0100 (13&4)
 
     __builtin_popcount(n ^ k);
+    整數2bit中1的個數
 */
 class Solution {
 public:
