@@ -1,6 +1,3 @@
-/*
-    Math, slope
-*/
 class Solution {
 public:
     
@@ -16,3 +13,6 @@ public:
         return LHS != RHS;
     }
 };
+/*
+    Math, slope, 數學, 斜率
+*/
