@@ -4,9 +4,12 @@ public:
         int x = 0;
         vector<bool> ret;
         for (int & n : nums) {
-            x = (x * 2 + n) % 5;
+            x = ((x << 1) + n) % 5;
             ret.push_back(x == 0);
         }
         return ret;
     }
 };
+/*
+    Bit, 位元
+*/
