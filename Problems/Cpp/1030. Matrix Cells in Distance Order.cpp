@@ -1,6 +1,3 @@
-/*
-    Sort_Lambda 
-*/
 class Solution {
 public:
     vector<vector<int>> allCellsDistOrder(int rows, int cols, int rCenter, int cCenter) {
@@ -17,3 +14,6 @@ public:
         return ans;
     }
 };
+/*
+    Matrix, 矩陣Sort_Lambda 
+*/
