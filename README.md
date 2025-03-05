@@ -8,6 +8,6 @@
 
 ## List of Problems
 
-| #   | Problem   | Solution   |
-| ---: | :---------------------- | :-------------------------------------------- |
+| #    | Problem                                           | Solution                                                                                   |
+| ---- | ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Cpp](https://github.com/wind9051/LeetCode/blob/main/Problems/Cpp/0001.%20Two%20Sum_2.cpp) |
