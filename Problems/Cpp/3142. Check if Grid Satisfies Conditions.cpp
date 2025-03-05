@@ -1,6 +1,3 @@
-/*
-  Matrix
-*/
 class Solution {
 public:
     bool satisfiesConditions(vector<vector<int>>& grid) {
@@ -14,3 +11,6 @@ public:
         return true;
     }
 };
+/*
+  Matrix, 矩陣
+*/
