@@ -12,3 +12,6 @@ public:
         return {res1, res2};
     }
 };
+/*
+    Hash, 哈希
+*/
