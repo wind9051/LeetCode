@@ -30,5 +30,6 @@ public:
 };
 /*
   Star
-  Math, 數學 推導
+  https://leetcode.cn/problems/maximum-height-of-a-triangle/solutions/2946682/san-jiao-xing-de-zui-da-gao-du-by-leetco-vch2/
+  Math, 數學 推導, 等差
 */
