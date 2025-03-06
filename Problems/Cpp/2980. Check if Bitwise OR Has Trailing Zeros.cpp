@@ -1,7 +1,3 @@
-/*
-    Bit Manipulation
-    trailing zero bit[0] = 0
-*/
 class Solution {
 public:
     bool hasTrailingZeros(vector<int>& nums) {
@@ -12,3 +8,7 @@ public:
         return (trailZero >= 2);
     }
 };
+/*
+    Bit, 位元
+    trailing zero bit[0] = 0
+*/
