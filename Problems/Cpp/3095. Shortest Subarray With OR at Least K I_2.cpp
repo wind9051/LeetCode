@@ -21,3 +21,6 @@ public:
         return minL;
     }
 };
+/*
+    Two pointer, Bit, 位元
+*/
