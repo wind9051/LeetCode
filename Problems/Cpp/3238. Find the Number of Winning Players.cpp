@@ -14,3 +14,6 @@ public:
         return res;
     }
 };
+/*
+    Hash, 哈希
+*/
