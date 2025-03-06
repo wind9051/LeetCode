@@ -1,19 +1,20 @@
-/*
-  Star
-  Math
-*/
+
 class Solution {
 public:
     int helper(int a, int b) {
         /*
             sum = (a1+an)*n/2
 
+            Sn = n/2(2a+ (n-1)d)
+            
             Odd rows : 
-            red = 1 + 3 + 5 + ... + (2*n1-1) = n1^2
+            red = 1 + 3 + 5 + ... + (2*n1-1) 
+                = n1/2(2+2n1-2) = n1^2
             n1 = sqrt(red)
 
             Even rows :
-            blue = 2 + 4 + 6 + ... + (2 * n2) = n2(n2+1)
+            blue = 2 + 4 + 6 + ... + (2 * n2) 
+                 = n2/2(4 + 2n2 -2) = n2(n2+1)
             n2^2 + n2 - blue = 0
             n2 = (-1 + sqrt(1 + 4*b)) / 2
         */
@@ -27,3 +28,7 @@ public:
         return max(helper(red, blue), helper(blue, red));
     }
 };
+/*
+  Star
+  Math, 數學 推導
+*/
