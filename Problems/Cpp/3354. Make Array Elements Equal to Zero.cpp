@@ -1,6 +1,3 @@
-/*
-  presum, math
-*/
 class Solution {
 public:
     int countValidSelections(vector<int>& nums) {
@@ -34,3 +31,6 @@ public:
         return ans;
     }
 };
+/*
+  presum, math, 前綴, 數學
+*/
