@@ -1,6 +1,3 @@
-/*
-  math
-*/
 class Solution {
 public:
     bool canAliceWin(vector<int>& nums) {
@@ -12,3 +9,6 @@ public:
         return single_sum != double_sum;
     }
 };
+/*
+  math, 數學 數論
+*/
