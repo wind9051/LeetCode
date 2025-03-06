@@ -14,3 +14,6 @@ public:
         return prefix;
     }
 };
+/*
+    Hash, 哈希
+*/
