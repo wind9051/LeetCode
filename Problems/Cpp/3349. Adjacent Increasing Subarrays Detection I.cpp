@@ -1,16 +1,22 @@
 class Solution {
 public:
     bool hasIncreasingSubarrays(vector<int>& nums, int k) {
-        int ans = 0, pre_cnt = 0, cnt = 0;
-        for (int i = 0; i < nums.size(); i++) {
-            cnt++;
-            if (i == nums.size() - 1 || nums[i] >= nums[i + 1]) {
-                if (cnt / 2 >= k || min(pre_cnt, cnt) >= k) return true;
-                ans = max({ans, cnt / 2, min(pre_cnt, cnt)});
-                pre_cnt = cnt;
-                cnt = 0;
+        this->arr = nums;
+        
+        int n = nums.size();
+        for (int i = 0; i < n; i++) {
+            if (i-k+1 >= 0 && i+k < n) {
+                if (check(i-k+1, i) && check(i+1, i+k)) return 1;
             }
         }
-        return ans >= k;
+        return 0;
+    }
+private:
+    vector<int> arr;
+    bool check(int left, int right) {
+        for (int i = left+1; i <= right; i++) {
+            if (arr[i-1] >= arr[i]) return false;
+        }
+        return true;
     }
 };
