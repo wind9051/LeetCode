@@ -18,3 +18,6 @@ public:
         return ret;
     }
 };
+/*
+    String, 前綴
+*/
