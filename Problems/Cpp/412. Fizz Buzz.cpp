@@ -1,4 +1,3 @@
-// divisible 3, 5
 class Solution {
 public:
     vector<string> fizzBuzz(int n) {
@@ -12,3 +11,7 @@ public:
         return ret;
     }
 };
+/*
+    Math, 數學 3倍 5倍
+    // divisible 3, 5
+*/
