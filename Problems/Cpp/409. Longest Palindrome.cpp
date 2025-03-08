@@ -12,3 +12,6 @@ public:
         return len + odd;
     }
 };
+/*
+    String, 字串 回文
+*/
