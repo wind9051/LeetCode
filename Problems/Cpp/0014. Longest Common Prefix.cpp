@@ -13,3 +13,6 @@ public:
         return str;
     }
 };
+/*
+    String, 字串, DP, LCP
+*/
