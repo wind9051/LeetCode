@@ -1,7 +1,3 @@
-//https://leetcode.cn/problems/print-in-order/solutions/445416/c-hu-chi-suo-tiao-jian-bian-liang-xin-hao-liang-yi/
-/*
-    multithreading
-*/
 #include <semaphore.h>
 
 class Foo {
@@ -29,3 +25,7 @@ public:
         printThird();
     }
 };
+//https://leetcode.cn/problems/print-in-order/solutions/445416/c-hu-chi-suo-tiao-jian-bian-liang-xin-hao-liang-yi/
+/*
+    線程, multithreading
+*/
