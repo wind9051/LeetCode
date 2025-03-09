@@ -17,3 +17,6 @@ public:
         return ret;
     }
 };
+/*
+    String, 字串
+*/
