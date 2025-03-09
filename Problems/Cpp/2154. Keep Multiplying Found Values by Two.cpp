@@ -1,6 +1,3 @@
-/*
-    Bit Manipulation
-*/
 class Solution {
 public:
     int findFinalValue(vector<int>& nums, int original) {
@@ -12,3 +9,6 @@ public:
         return ans;
     }
 };
+/*
+    Bit 位元
+*/
